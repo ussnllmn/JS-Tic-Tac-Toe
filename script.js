@@ -4,15 +4,15 @@ let disable = false;
 
 function println(id) {
   let result = document.getElementById("result");
-  let id_now = document.getElementById(id);
+  let id_now = id;
 
   if (id_now.innerHTML == "" && disable == false) {
     xo = !xo;
     if (xo == true) {
-      cell[id] = 1;
+      cell[id.id] = 1;
       id_now.innerHTML = "X";
     } else {
-      cell[id] = -1;
+      cell[id.id] = -1;
       id_now.innerHTML = "O";
     }
     if (score()) result.innerHTML = "Winner = ".concat(id_now.innerHTML);

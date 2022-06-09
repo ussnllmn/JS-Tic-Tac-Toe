@@ -10,29 +10,15 @@ td {
   border-collapse: collapse;
   cursor: pointer;
 }
-.topL {
-  border: 2px solid black;
-  border-left: none;
-  border-top: none;
-}
-.topR {
-  border: 2px solid black;
-  border-right: none;
-  border-top: none;
-}
 .mid {
-  border: 2px solid black;
+  border-left: 2px solid;
+  border-right: 2px solid;
 }
-.bottomL {
-  border: 2px solid black;
-  border-bottom: none;
-  border-left: none;
+.midrow {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
 }
-.bottomR {
-  border: 2px solid black;
-  border-right: none;
-  border-bottom: none;
-}
+
 div {
   display: flex;
   justify-content: center;
