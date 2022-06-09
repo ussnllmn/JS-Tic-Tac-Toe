@@ -7,12 +7,32 @@ td {
   width: 80px;
   height: 80px;
   table-layout: fixed;
-
-  cursor: pointer;
-  border: 2px solid black;
   border-collapse: collapse;
+  cursor: pointer;
 }
-
+.topL {
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+}
+.topR {
+  border: 2px solid black;
+  border-right: none;
+  border-top: none;
+}
+.mid {
+  border: 2px solid black;
+}
+.bottomL {
+  border: 2px solid black;
+  border-bottom: none;
+  border-left: none;
+}
+.bottomR {
+  border: 2px solid black;
+  border-right: none;
+  border-bottom: none;
+}
 div {
   display: flex;
   justify-content: center;
