@@ -1,15 +1,24 @@
 table,
 th,
 td {
-  align-items: center;
-  text-align: center;
   font-size: 40px;
+  text-align: center;
 
-  width: 200px;
-  height: 70px;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  border-collapse: collapse;
+  width: 80px;
+  height: 80px;
+  table-layout: fixed;
+
+  cursor: pointer;
   border: 2px solid black;
+  border-collapse: collapse;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+h2,
+p {
+  font-size: 30px;
+  text-align: center;
 }
