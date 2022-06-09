@@ -1,0 +1,15 @@
+table,
+th,
+td {
+  align-items: center;
+  text-align: center;
+  font-size: 40px;
+
+  width: 200px;
+  height: 70px;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
